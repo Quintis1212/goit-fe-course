@@ -40,11 +40,13 @@
  
  } 
 
- .main , 
+ .main {
+  color: rgb(38, 53, 85) ;
+}
+ .agency 
    {
 
-  color: rgb(38, 53, 85) ;
-  padding-top: 30px ;
+  padding-top: 50px ;
  
  } 
 
@@ -58,7 +60,7 @@
   margin-top: 20px ;
   
  }
- .agency ,
+
  .principles ,
  .offer {
   
