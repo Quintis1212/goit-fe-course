@@ -40,7 +40,7 @@
  
  } 
 
- .agency , 
+ .main , 
    {
 
   color: rgb(38, 53, 85) ;
@@ -58,7 +58,7 @@
   margin-top: 20px ;
   
  }
- 
+ .agency ,
  .principles ,
  .offer {
   
