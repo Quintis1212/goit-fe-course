@@ -31,13 +31,20 @@
   text-transform: uppercase ;  
   }
 
-
- .main , 
+ 
  .list ,
  .title  {
 
   color: rgb(38, 53, 85) ;
   margin-top: 30px ;
+ 
+ } 
+
+ .main , 
+   {
+
+  color: rgb(38, 53, 85) ;
+  padding-top: 30px ;
  
  } 
 
