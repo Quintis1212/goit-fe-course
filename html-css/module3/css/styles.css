@@ -1,86 +1,74 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-
-  body {
-    min-height: 100vh;
-    font-size: 16px;
-    font-family: 'Pathway Gothic One', sans-serif;
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  
-    background-blend-mode: overlay;
-    padding-top: 200px;
-    padding-bottom: 500px;
-  }
-  .wrapper {
-    width: 480px;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    padding-left: 20px ;
-    padding-right: 20px ;
-    background-color: rgb(255, 255, 255);
-    
-  }
-  .main {
-  text-transform: uppercase ;  
-  }
-
- 
- .list ,
- .title  {
-
-  color: rgb(38, 53, 85) ;
-  margin-top: 30px ;
- 
- } 
-
- .main {
-  color: rgb(38, 53, 85) ;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
- .agency 
-   {
 
-  padding-top: 50px ;
- 
- } 
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  padding-top: 200px;
+  padding-bottom: 500px;
+}
 
- .img {
-   display: block ;
-   width: 100% ;
-   margin-top: 30px ;
- }
+.wrapper {
+  width: 480px;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(255, 255, 255);
+}
 
- .text {
-  margin-top: 20px ;
-  
- }
+.main {
+  text-transform: uppercase;
+}
 
- .principles ,
- .offer {
-  
-  margin-top: 60px ;
- }
+.list,
+.title {
+  color: rgb(38, 53, 85);
+  margin-top: 30px;
+}
 
- .list {
-  list-style-type: none ;
+.main {
+  color: rgb(38, 53, 85);
+}
+
+
+
+.img {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  margin-top: 20px;
+}
+
+.principles {
+  margin-top: 60px;
+}
+
+.list {
+  list-style-type: none;
   column-count: 2;
-  vertical-align: top ;
- }
- 
-.let {
-    margin-bottom: 25px ;
-  
-  }
+  vertical-align: top;
+}
 
- .principles {
-  
-  margin-bottom: 50px ;
-  padding-bottom: 50px ;
-  border-bottom: 1px solid rgb(222, 219, 219); 
- }
+.let {
+  margin-bottom: 25px;
+}
+
+.principles {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(222, 219, 219);
+}
