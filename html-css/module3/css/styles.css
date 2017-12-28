@@ -41,7 +41,10 @@ body {
   color: rgb(38, 53, 85);
 }
 
-
+.titleone {
+  padding-top: 30px ;
+  color: rgb(38, 53, 85);
+}
 
 .img {
   display: block;
