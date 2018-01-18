@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 14px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  background-image: url(../imagine/backimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  padding-top: 230px;
+  padding-bottom: 270px;
+}
+
+.wrapper {
+  width: 1024px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding-left: 60px;
+  padding-right: 65px;
+}
+
+.firsthalf {
+  padding-top: 120px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(222, 219, 219);
+}
+
+.title,
+.undertitle {
+  color: rgb(38, 53, 85);
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.undertitle {
+  padding-bottom: 20px;
+}
+
+.flows {
+  display: table;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+
+.textcontent {
+  color: rgb(78, 80, 80);
+}
+
+.bolter {
+  margin-top: 20px;
+  color: rgb(78, 80, 80);
+}
+
+.left1 {
+  display: inline-block;
+  width: 72%;
+  vertical-align: top;
+}
+
+.right1 {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  margin-left: 65px;
+}
+
+.special {
+  margin-top: 40px;
+}
+
+
+
+.leftside {
+  width: 630px;
+  display: inline-block;
+}
+.secondhalf ul {
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+.list,
+.bell {
+  list-style: none;
+}
+
+
+.list li::before {
+  display: inline-block;
+  content: "123 ";
+}
+
+.bell li::before {
+  display: inline-block;
+  content: '\2192';
+  color: rgb(76, 175, 229);
+}
+
+.bell {
+  display: inline-block;
+  color: rgb(38, 53, 85);
+  width: 300px;
+  margin-top: 30px;
+}
+
+.bell:nth-child(-2n+3) {
+margin: 0px;
+}
+.rightside {
+  display: inline-block;
+  width: 215px;
+  vertical-align: top;
+  margin-left: 40px;
+  text-align: center;
+}
+.contacts {
+  text-align: center;
+  width: 210px;
+}
+
+.profile {
+  width: 160px;
+  background-color: rgb(252, 250, 250);
+  margin: auto;
+  text-align: justify;
+  padding: 20px;
+}
+
+.markj {
+  margin-top: 30px;
+}
