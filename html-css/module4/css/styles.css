@@ -15,18 +15,20 @@ body {
   background-blend-mode: overlay;
   padding-top: 230px;
   padding-bottom: 270px;
+  
 }
 
 .wrapper {
   width: 1024px;
   background-color: rgb(255, 255, 255);
-  margin: auto;
+ margin: auto;
   padding-left: 60px;
   padding-right: 65px;
+  padding-top: 120px;
+  padding-bottom: 80px;
 }
 
 .firsthalf {
-  padding-top: 120px;
   padding-bottom: 50px;
   margin-bottom: 50px;
   border-bottom: 1px solid rgb(222, 219, 219);
@@ -42,7 +44,11 @@ body {
 }
 
 .undertitle {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.fin {
+  display: inline-block;
+  width: 120px;
 }
 
 .flows {
@@ -73,8 +79,16 @@ body {
   vertical-align: top;
   margin-left: 65px;
 }
+.list li {
+  vertical-align: top;
+}
 
-.special {
+.right1 h3 {
+  display: inline-block;
+}
+
+
+.list li {
   margin-top: 40px;
 }
 
@@ -83,27 +97,48 @@ body {
 .leftside {
   width: 630px;
   display: inline-block;
+  
 }
 .secondhalf ul {
   margin-top: 40px;
-  padding-bottom: 80px;
+ 
 }
+
 
 .list,
 .bell {
   list-style: none;
 }
-
-
-.list li::before {
-  display: inline-block;
-  content: "123 ";
+.list {
+  counter-reset: calc;
 }
 
-.bell li::before {
+.right1 li::before {
+	counter-increment: calc;
+	content: counter(calc);
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: #1789fc;
+	color: #fefefe;
+	text-align: center;
+  line-height: 30px;
+  vertical-align: top;
+  
+}
+
+
+.leftside li::before {
   display: inline-block;
   content: '\2192';
   color: rgb(76, 175, 229);
+  margin-right: 13px;
+}
+
+.bell h3 {
+  display: inline-block;
 }
 
 .bell {
@@ -135,6 +170,15 @@ margin: 0px;
   text-align: justify;
   padding: 20px;
 }
+.profile::before {
+  content: "\00AB";
+
+}
+.profile::after {
+  content: "\00BB";
+
+}
+
 
 .markj {
   margin-top: 30px;
