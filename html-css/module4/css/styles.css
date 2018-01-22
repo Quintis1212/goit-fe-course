@@ -17,6 +17,9 @@ body {
   padding-bottom: 270px;
   
 }
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .wrapper {
   width: 1024px;
@@ -160,7 +163,14 @@ margin: 0px;
 }
 .contacts {
   text-align: center;
-  width: 210px;
+  
+}
+.list :first-child{
+  margin-top: 0px;
+}
+
+.left1 {
+  clear: both;
 }
 
 .profile {
