@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 14px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  background-image: url(../imagine/backimg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  padding-top: 230px;
+  padding-bottom: 270px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 1025px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.item:first-child {
+  padding-left: 90px;
+}
+
+.item:last-child {
+  padding-right: 90px;
+}
+
+.item:nth-child(4n+2) {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.item:nth-child(3) {
+  margin-right: 230px;
+}
+
+.wrapper {
+  width: 1025px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding-left: 60px;
+  padding-right: 65px;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.menu,
+.submenu {
+  list-style: none;
+}
+
+.submenu {
+  display: none;
+}
+
+.item1 {
+  position: relative;
+}
+
+.item1:hover .submenu {
+  display: block;
+  padding: 10px;
+  background-color: #ffffff;
+  left: -15px;
+  position: absolute;
+  color: #6b7488;
+}
+
+.item1:hover {
+  color: #263555;
+}
+
+.item1:before {
+  position: absolute;
+  bottom: 1px;
+  left: 40%;
+  content: "";
+  display: none;
+  width: 10px;
+  height: 5px;
+  border-style: solid;
+  border-width: 0 5px 5px 5px;
+  border-color: transparent transparent #6980fe transparent;
+}
+
+.item1:hover>.item1:before {
+  position: absolute;
+  bottom: 1px;
+  left: 40%;
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 5px;
+  border-style: solid;
+  border-width: 0 5px 5px 5px;
+  border-color: transparent transparent #6980fe transparent;
+}
+
+.item,
+.item1 {
+  display: inline-block;
+  color: white;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: Pathway Gothic one;
+}
+
+.logo {
+  display: inline-block;
+}
+
+
+
+.log {
+  position: absolute;
+top:30px;
+left: 40x;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: white;
+  padding: 60px;
+  width: 200px;
+  height: 200px;
+}
+
+.log p {
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: Dorsa;
+  color: rgb(38, 53, 85);
+}
