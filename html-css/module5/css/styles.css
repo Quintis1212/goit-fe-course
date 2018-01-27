@@ -267,7 +267,7 @@ margin-top: 60px;
 
 
 .venice  {
-  z-index: 1;
+  z-index: -1;
   position: absolute;
   top: 1174px;
   left: 223px;
@@ -305,6 +305,7 @@ margin-right: 5px;
 
 
   .newyork  {
+    z-index: -1;
     position: absolute;
     top: 1174px;
     left: 525px;
@@ -341,6 +342,7 @@ margin-right: 5px;
     }
 
     .paris  {
+      z-index: -1;
       position: absolute;
       top: 1174px;
       left: 827px;
@@ -374,4 +376,11 @@ margin-right: 5px;
     margin-right: 5px;
      margin-left: auto;
      margin-top: 20px;
+      }
+
+
+
+      .textimg1:hover  .venice{
+        z-index: 1;
+        
       }
