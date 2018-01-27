@@ -156,7 +156,7 @@ header {
 .slick-arrow {
   position: absolute;
   z-index: 10;
- 
+outline: 0;
   border: 0;
   cursor: pointer;
   background-color: #38afe5;
@@ -192,8 +192,10 @@ display: inline-block;
 }
 .slick-next:before {
   content: "\2190";
-    color:white;
 
+    color:#ffffff;
+   font-size: 40px;
+  display: inline-block;
 }
 
 .slick-prev {
@@ -211,6 +213,33 @@ display: inline-block;
 }
 .slick-prev:before {
   content: "\2192";
-    color:white;
+    color:#ffffff;
     margin-left:5px;
+    font-size: 40px;
+}
+
+
+.prevy {
+  display: inline-block;
+  position: absolute;
+  top:700px;
+  
+  font-family: pathway gothic one;
+  font-size: 35px;
+  padding: 20px;
+  background-color: #38afe5;
+  color: #ffffff;
+}
+
+.places {
+  display: inline-block;
+  position: absolute;
+  top:633px;
+  text-transform: uppercase;
+  
+  font-family: pathway gothic one;
+  font-size: 23px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #263555;
 }
