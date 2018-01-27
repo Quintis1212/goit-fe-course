@@ -252,6 +252,7 @@ margin-top: 60px;
 
 
 .bottomarticle img {
+  z-index: 11;
   display: inline-block;
   width: 290px;
   height: 270px;
@@ -266,6 +267,10 @@ margin-top: 60px;
 
 
 .venice  {
+  z-index: 1;
+  position: absolute;
+  top: 1174px;
+  left: 223px;
   display: inline-block;
   background-color: #193149;
   width: 145px;
@@ -300,6 +305,9 @@ margin-right: 5px;
 
 
   .newyork  {
+    position: absolute;
+    top: 1174px;
+    left: 525px;
     display: inline-block;
     background-color: #193149;
     width: 145px;
@@ -333,6 +341,9 @@ margin-right: 5px;
     }
 
     .paris  {
+      position: absolute;
+      top: 1174px;
+      left: 827px;
       display: inline-block;
       background-color: #193149;
       width: 145px;
