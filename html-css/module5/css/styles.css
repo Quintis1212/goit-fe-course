@@ -260,7 +260,7 @@ margin-top: 60px;
 }
 
 
-.bottomarticle img:nth-child(3) {
+.textimg2 {
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -380,7 +380,18 @@ margin-right: 5px;
 
 
 
-      .textimg1:hover  .venice{
+      .textimg1:hover+.venice{
         z-index: 1;
+       
+        
+      }
+      .textimg2:hover+.newyork{
+        z-index: 1;
+       
+        
+      }
+      .textimg3:hover+.paris{
+        z-index: 1;
+       
         
       }
