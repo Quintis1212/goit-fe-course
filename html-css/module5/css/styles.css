@@ -13,11 +13,12 @@ body {
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
-  
 }
+
 main {
   padding-top: 230px;
 }
+
 p {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,7 +26,7 @@ p {
 header {
   width: 1025px;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 110px;
 }
 
 .item:first-child {
@@ -51,8 +52,8 @@ header {
   margin: auto;
   padding-left: 60px;
   padding-right: 65px;
-  padding-top: 120px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 130px;
 }
 
 .menu,
@@ -71,9 +72,10 @@ header {
 .item1:hover .submenu {
   display: block;
   top: 33px;
+  font-size: 20px;
   padding: 10px;
   background-color: #ffffff;
-  left: -15px;
+  left: -6px;
   position: absolute;
   color: #6b7488;
 }
@@ -81,9 +83,11 @@ header {
 .item1:hover {
   color: #263555;
 }
+
 .item:hover {
   color: #263555;
 }
+
 .item1:before {
   position: absolute;
   top: 25px;
@@ -123,12 +127,10 @@ header {
   display: inline-block;
 }
 
-
-
 .log {
   position: absolute;
-top: 165px;
-left: 575px;
+  top: 165px;
+  left: 566px;
   text-align: center;
   display: inline-block;
   border-radius: 50%;
@@ -144,4 +146,71 @@ left: 575px;
   font-size: 60px;
   font-family: Dorsa;
   color: rgb(38, 53, 85);
+}
+
+.carousel img {
+  width: 900px;
+  height: 570px;
+}
+
+.slick-arrow {
+  position: absolute;
+  z-index: 10;
+ 
+  border: 0;
+  cursor: pointer;
+  background-color: #38afe5;
+
+
+
+
+
+  width: 45px;
+  height: 90px;
+    line-height: 90px;
+display: inline-block;
+}
+
+.slick-arrow:hover {
+  opacity: 0.8;
+}
+
+.slick-next {
+  color: #38afe5;
+  top: 430px;
+  left: 50px;
+
+
+
+
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  
+  background-color: #38afe5;;
+
+  
+}
+.slick-next:before {
+  content: "\2190";
+    color:white;
+
+}
+
+.slick-prev {
+  color: #38afe5;
+  top: 430px;
+  left: 90px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  margin-left: 5px;
+  background-color: #38afe5;;
+
+
+
+  
+}
+.slick-prev:before {
+  content: "\2192";
+    color:white;
+    margin-left:5px;
 }

@@ -4,51 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <title>homework</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link href="https://fonts.googleapis.com/css?family=Dorsa" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-<main>
-    <header>
+    <main>
+        <header>
             <div class="logo">
-                    <div class="log">
-                        <p>journey</p>
-                    </div>
-                      </div>
-        <nav>
+                <div class="log">
+                    <p>journey</p>
+                </div>
+            </div>
+            <nav>
                 <ul class="menu">
-                        <li class="item">home</li>
-                        <li class="item1 item">about
+                    <li class="item">home</li>
+                    <li class="item1 item">about
 
-                                <ul class="submenu">
-                                        <li>agency</li>
-                                        <li>news</li>
-                                        <li>team</li>
-                                        </ul>
-                        </li>
-                        <li class="item">gallery</li>
-                       
-                        <li class="item">tours</li>
-                        <li class="item">blog</li>
-                        <li class="item">contacts</li>
-                        
+                        <ul class="submenu">
+                            <li>agency</li>
+                            <li>news</li>
+                            <li>team</li>
                         </ul>
+                    </li>
+                    <li class="item">gallery</li>
 
-        </nav>
-    </header>
-    <section class="wrapper">
-        <article></article>
-        <article></article>
+                    <li class="item">tours</li>
+                    <li class="item">blog</li>
+                    <li class="item">contacts</li>
 
-     
+                </ul>
 
-    </section>
+            </nav>
+        </header>
+        <section class="wrapper">
+            <article>
+                <div class="carousel">
+                    <div>
+                        <img src="../imagine/slider1.jpg" alt="travel">
+
+                    </div>
+                    <div><img src="../imagine/slider2.jpg" alt="newplaces"></div>
+                    <div><img src="../imagine/slider3.jpg" alt="peyzazh"></div>
+                    <div><img src="../imagine/slider4.jpg" alt="peyzazh"></div>
+                </div>
+            </article>
+            
+            
+            
+            
+            
+            
+            
+            
+            <article></article>
 
 
 
-</main>
+        </section>
+
+
+
+    </main>
+
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.carousel').slick({
+        
+      });
+    });
+  </script>
 </body>
 
 </html>
+
+
