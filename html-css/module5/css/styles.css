@@ -86,7 +86,7 @@ header {
 }
 .item1:before {
   position: absolute;
-  bottom: px;
+  top: 25px;
   left: 40%;
   content: "";
   display: none;
