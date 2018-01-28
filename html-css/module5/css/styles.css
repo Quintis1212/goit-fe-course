@@ -5,6 +5,7 @@
 }
 
 body {
+ 
   min-height: 100vh;
   font-size: 14px;
   font-family: 'Pathway Gothic One', sans-serif;
@@ -138,7 +139,9 @@ header {
   font-family: Dorsa;
   color: rgb(38, 53, 85);
 }
-
+.log a {
+  text-decoration: none;
+}
 .carousel img {
   width: 900px;
   height: 570px;
@@ -378,20 +381,52 @@ margin-right: 5px;
      margin-top: 20px;
       }
 
+.ven ,
+.ny ,
+.fr {
+  display: inline-block;
+}
+
+      .ven:hover .venice{
+        z-index: 1;
+       
+        
+      }
+      .ny:hover  .newyork{
+        z-index: 1;
+       
+        
+      }
+      .fr:hover  .paris{
+        z-index: 1;
+       
+        
+      }
+
+      .totop {
+        z-index: 12;
+        display: inline-block;
+       position: fixed;
+       top: 600px;
+       left: 1140px;
+        width: 30px;
+        height: 30px;
+        background-color:  #38afe5;
+        border-radius: 50%;
+      }
 
 
-      .textimg1:hover+.venice{
-        z-index: 1;
-       
+      .totop:before {
         
-      }
-      .textimg2:hover+.newyork{
-        z-index: 1;
+        content: "\21E7";
+        color: #ffffff ;
+        font-size: 25px;
+        position: absolute;
        
-        
-      }
-      .textimg3:hover+.paris{
-        z-index: 1;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
        
-        
       }
+
+   
