@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+ 
+  min-height: 100vh;
+  font-size: 14px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  background-image: url(../imagine/backimg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  padding-top: 230px;
+  padding-bottom: 30px;
+}
+
+
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 1025px;
+  margin: auto;
+  margin-bottom: 110px;
+}
+
+.menu {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.item:nth-child(3n+2) {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.item:nth-child(3) {
+  margin-right: 230px;
+}
+
+.wrapper {
+  width: 1025px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding-left: 60px;
+  padding-right: 65px;
+  padding-top: 60px;
+  padding-bottom: 130px;
+}
+
+.menu,
+.submenu {
+  list-style: none;
+}
+
+.submenu {
+  display: none;
+}
+
+.item1 {
+  position: relative;
+}
+
+.item1:hover .submenu {
+  display: block;
+  top: 37px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  left: -6px;
+  position: absolute;
+  color: #6b7488;
+}
+
+.item1:hover {
+  color: #263555;
+}
+
+.item:hover {
+  color: #263555;
+}
+
+.item1:before {
+  content: "";
+  display: none;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #fdfdfd transparent;
+}
+
+.item1:hover:before {
+  position: absolute;
+  top: 27px;
+  left: 35%;
+  content: "";
+  display: block
+}
+
+.item,
+.item1 {
+  display: inline-block;
+  color: white;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: Pathway Gothic one;
+}
+
+.logo {
+  display: flex;
+justify-content: space-between;
+}
+
+.log {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: white;
+  padding: 60px;
+  width: 138px;
+  height: 138px;
+}
+
+.log p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: Dorsa;
+  color: rgb(38, 53, 85);
+}
+.log a {
+  text-decoration: none;
+ 
+}
+.carousel img {
+  width: 900px;
+  height: 570px;
+}
+
+.slick-arrow {
+  position: absolute;
+  z-index: 10;
+outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #38afe5;
+
+
+
+
+
+  width: 45px;
+  height: 90px;
+    line-height: 90px;
+display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.galery{   
+      color: #263555;
+    }
+    .galery h2 {   
+      margin-bottom: 40px;
+    }
+    .flex {
+      
+      
+    align-items: center	;
+      flex-direction: row;
+      justify-content: space-between;
+      display:flex;
+      flex-wrap:wrap;
+       align-content:space-around	;
+    
+    }
+    
+    .child {
+      position: relative;
+    flex-basis: 25%;
+      margin-bottom:40px;
+     
+    }
+    
+    
+    img {
+      
+       display:block;
+      width:290px;
+      height: 160px;
+    }
+
+.child:hover {
+    filter: brightness(70%);
+  }
+  .child:hover .linse{
+    opacity: 1;
+    
+    border-radius: 50%;
+  
+  }
+.linse {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0;
+}
+
+
+
+
+
+
+.contakts {
+  background-color: #30455b;
+  width: 1024px;
+  margin: auto;
+  font-style: normal;
+  
+  }
+  .authors 
+   {
+    list-style: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    height: 40px;
+    
+    
+  }
+  
+  .connect {
+    list-style: none;
+  }
+  
+  .content {
+    width: 710px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  
+  .end {
+    color: #ffffff;
+    text-align: center;
+    margin-top:25px;
+  }
+  
+  .links {
+   color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    margin-top:30px;
+    flex-direction: row;
+  }
+  .links img {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .flex-here {
+    display: flex;
+   list-style: none;
+    margin: auto;
+    width: 200px;
+    justify-content: space-between;
+  }
