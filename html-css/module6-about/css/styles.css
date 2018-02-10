@@ -344,6 +344,8 @@ margin: 0px;
 }
 .contacts {
   text-align: center;
+  display: flex;
+ 
   
 }
 .list :first-child{
@@ -381,6 +383,8 @@ background-color: #30455b;
 width: 1024px;
 margin: auto;
 font-style: normal;
+display: flex;
+justify-content: space-between;
 
 }
 .authors 
@@ -389,9 +393,9 @@ font-style: normal;
   color: #ffffff;
   text-transform: uppercase;
   font-family: 'Pathway Gothic One', sans-serif;
-  
+  width: 75%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   flex-flow: column wrap;
   height: 40px;
@@ -401,12 +405,17 @@ font-style: normal;
 
 .connect {
   list-style: none;
+  display: flex;
+  flex-flow: column;
+  color: #ffffff;
+  width: 25%;
 }
 
 .content {
   width: 710px;
   margin: auto;
   padding-bottom: 50px;
+  display: flex;
   padding-top: 50px;
 }
 
@@ -436,3 +445,7 @@ font-style: normal;
   width: 200px;
   justify-content: space-between;
 }
+
+
+
+
