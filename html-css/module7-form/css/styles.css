@@ -223,3 +223,6 @@ h1 {
     width: 169px;
     resize: none;
 }
+.input-text input{
+    min-height: 28px;
+}
