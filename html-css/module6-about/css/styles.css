@@ -279,9 +279,15 @@ justify-content: space-between;
 }
 .secondhalf ul {
   margin-top: 40px;
-  margin-bottom: 90px;
+ 
  
 }
+
+
+
+
+
+
 .secondhalf  {
  display: flex;
  justify-content: space-between;
@@ -344,7 +350,7 @@ margin: 0px;
 }
 .contacts {
   text-align: center;
-  display: flex;
+ 
  
   
 }
@@ -428,9 +434,9 @@ justify-content: space-between;
 .links {
  color: rgb(255, 255, 255);
   margin: auto;
-  display: flex;
+  
   margin-top:30px;
-  flex-direction: row;
+  
 }
 .links img {
   display: block;
