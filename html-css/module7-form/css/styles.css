@@ -21,13 +21,13 @@ body {
 }
 
 .container {
-    width: 960px;
+    
     margin: auto;
     padding-top: 100px;
     padding-bottom: 100px;
     background-image: url("/imagine/back-img.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
 }
@@ -35,6 +35,7 @@ body {
 .head {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -45,7 +46,7 @@ body {
 
 .menu {
     display: flex;
-    padding-top: 10px;
+
     width: 480px;
     justify-content: space-between;
     list-style: none;
@@ -58,6 +59,13 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+section {
+    margin-top: 90px;
+}
+
+
+
 
 .title p {
     font-family: piero, sans-serif;
@@ -88,6 +96,8 @@ button {
     font-family: monst, sans-serif;
     font-weight: bold;
     font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
 .menu li:hover {
@@ -95,7 +105,7 @@ button {
 }
 
 .title {
-    margin-top: 90px;
+
     margin-bottom: 70px;
     text-align: center;
 }
@@ -141,7 +151,7 @@ button {
     border: 4px solid #fed136;
     border-radius: 50%;
     padding: 5px;
-    background-image: url("/imagine/security.jpg");
+    background-image: url("../imagine/security.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -160,11 +170,16 @@ button {
 
 .commerse {
     flex-basis: 20%;
-    display: flex;
-    flex-flow: column;
+    
     text-align: center;
-    align-items: center;
+   
 }
+
+i {
+    margin: auto;
+}
+
+
 
 .title-logo {
     color: #ffffff;
@@ -184,19 +199,35 @@ button {
 .input-text {
     display: flex;
     flex-direction: column;
+    width: 460px;
+    min-height: 60px;
+    
 }
 
-.input-text input:not(:last-child) {
-    margin-bottom: 15px;
+
+input {
+    flex-basis: 100%;
 }
+
+
 
 .form-text {
     margin-left: 20px;
+  
 }
 
-.button {
+textarea {
+    width: 460px;
+
+
+    display: block;
+}
+
+button {
     text-align: center;
     margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 button {
@@ -215,9 +246,13 @@ h1 {
 }
 
 .form-text textarea {
-    width: 169px;
+    width: 460px;
     resize: none;
 }
 .input-text input{
     min-height: 28px;
+}
+
+form {
+    text-align: center;
 }
