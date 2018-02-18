@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 14px;
+    font-family: 'Pathway Gothic One', sans-serif;
+
+}
+
+
+.wrapper {
+    max-width: 960px;
+    min-width: 320px;
+    margin: auto;
+    padding-top: 60px;
+    margin-bottom: 120px;
+}
+
+.head-section  {
+    
+    background-image: url(../images/backimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    
+}
+
+
+nav {
+  
+    display: flex;
+    flex-direction: column-reverse;
+   align-items: center;
+ 
+}
+
+
+
+nav a  {
+    color:  #ffffff;
+}
+a {
+    text-decoration:none;
+    
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+}
+.log {
+    margin-right: 10px;
+    
+}
+.sign a {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 40%    ;
+    border:2px solid rgba(255, 255, 255,0);
+    font-family: Montserrat;
+    font-weight: 700;
+   
+
+
+
+}
+
+
+.sign a:hover {
+    border:2px solid rgb(255, 255, 255);
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+}
+.title p {
+    margin-bottom:30px;
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+
+.title h2 { 
+font-family: Montserrat;
+font-weight: 700;
+font-size: 50px;
+
+}
+
+
+.title a {
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px;
+    background-color: #ff0000;
+    border-radius: 30%;
+}
