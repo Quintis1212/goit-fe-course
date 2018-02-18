@@ -82,7 +82,9 @@ a {
 .sign a:hover {
     border:2px solid rgb(255, 255, 255);
 }
-
+header {
+    padding-bottom: 500px;
+}
 .title {
     text-align: center;
     color: #ffffff;
@@ -113,4 +115,39 @@ font-size: 50px;
     padding: 7px;
     background-color: #ff0000;
     border-radius: 20%;
+}
+.command {
+     text-align: center;
+}
+
+.command h5 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+}
+
+.command a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px;
+    background-color: #ff0000;
+    border-radius: 20%;
+}
+
+
+.card img {
+  border-radius: 50%;
+
+}
+
+
+
+
+
+.card {
+
 }
