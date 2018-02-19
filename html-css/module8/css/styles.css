@@ -19,8 +19,8 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    padding-top: 60px;
-    padding-bottom: 150px;
+    padding-top: 10px;
+  
     background-color: rgba(0, 0, 0, 0.3);
  
 }
@@ -58,6 +58,7 @@ nav {
     display: flex;
     flex-direction: column-reverse;
    align-items: center;
+   
  
 }
 
@@ -71,11 +72,16 @@ a {
     
 }
 
+nav {
+    margin-bottom: 50px;
+}
+
 .logo {
     text-transform: uppercase;
     font-family: Montserrat;
     font-weight: 700;
     font-size: 20px;
+    margin-top: 160px;
 }
 .log {
     margin-right: 10px;
@@ -84,7 +90,7 @@ a {
 .sign a {
     display: inline-block;
     padding: 5px;
-    border-radius: 40%    ;
+    border-radius: 20px   ;
     border:2px solid rgba(255, 255, 255,0);
     font-family: Montserrat;
     font-weight: 700;
@@ -99,9 +105,7 @@ a {
 .sign a:hover {
     border:2px solid rgb(255, 255, 255);
 }
-header {
-    padding-bottom: 500px;
-}
+
 .title {
     text-align: center;
     color: #ffffff;
@@ -138,6 +142,11 @@ font-size: 50px;
 }
 .command {
      text-align: center;
+     max-width: 960px;
+     min-width: 320px;
+     margin: auto;
+     margin-top: 210px;
+     padding-bottom: 55px;
 }
 
 .command h5 {
@@ -173,6 +182,18 @@ align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.card:last-child{
+    margin-bottom: 30px;
+}
+
+.card:first-child{
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+
+
+
 .card img {
   border-radius: 50%;
 
@@ -200,6 +221,11 @@ align-items: center;
         margin-right: 0px;
         
     }
+    
+    
+    .logo {
+        margin-top: 0px;
+    }
 }
 
 @media (min-width: 720px) {
@@ -218,6 +244,7 @@ align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
+        justify-content: space-between;
         }
 
         .card {
@@ -232,10 +259,11 @@ align-items: center;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
+            justify-content: space-between;
             }
     
             .card {
-                flex-basis: 25%;
+                flex-basis: 23%;
             }
     
         }
