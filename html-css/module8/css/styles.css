@@ -19,7 +19,7 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    padding-top: 10px;
+    padding-top: 0.714rem;
   
     background-color: rgba(0, 0, 0, 0.3);
  
@@ -28,21 +28,13 @@ body {
 
 
 
-.wrap::before {
-content: " ";
-width: 100%;
-height: 100%;
-filter: grayscale(60%);
-
-}
-
 
 
 
 
 .wrapper {
-    max-width: 960px;
-    min-width: 320px;
+    max-width: 68.57rem;
+    min-width: 22.857rem;
     margin: auto;
    
     
@@ -73,24 +65,24 @@ a {
 }
 
 nav {
-    margin-bottom: 50px;
+    margin-bottom: 3.517rem ;
 }
 
 .logo {
     text-transform: uppercase;
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 20px;
-    margin-top: 160px;
+    font-size: 1.428rem;
+    margin-top: 11.428rem;
 }
 .log {
-    margin-right: 10px;
+    margin-right: 0.7142rem;
     
 }
 .sign a {
     display: inline-block;
-    padding: 5px;
-    border-radius: 20px   ;
+    padding: 0.3571rem;
+    border-radius: 1.428rem   ;
     border:2px solid rgba(255, 255, 255,0);
     font-family: Montserrat;
     font-weight: 700;
@@ -111,17 +103,17 @@ nav {
     color: #ffffff;
 }
 .title p {
-    margin-bottom:30px;
-    margin-top: 30px;
+    margin-bottom: 2.1428rem;
+    margin-top: 2.1428rem;
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 1.714rem;
 }
 
 
 .title h2 { 
 font-family: Montserrat;
 font-weight: 700;
-font-size: 50px;
+font-size: 3.5714rem;
 
 }
 
@@ -132,27 +124,27 @@ font-size: 50px;
     color: rgb(255, 255, 255);
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 14px;
-    padding: 11px;
-    padding-right: 20px;
-    padding-left: 20px;
+    font-size: 1rem;
+    padding: 0.7857rem;
+    padding-right: 1.4285rem;
+    padding-left: 1.4285rem;
    
     background-color: #ff0000;
-    border-radius: 20px;
+    border-radius: 1.4285rem;
 }
 .command {
      text-align: center;
-     max-width: 960px;
-     min-width: 320px;
+     max-width: 68.57rem;
+    min-width: 22.857rem;
      margin: auto;
-     margin-top: 210px;
-     padding-bottom: 55px;
+     margin-top: 15rem;
+     padding-bottom: 3.928rem;
 }
 
 .command h5 {
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.5714rem;
     color: #000000;
 }
 
@@ -161,13 +153,13 @@ font-size: 50px;
     color: #ff0000;
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 14px;
-    padding: 11px;
-    padding-right: 20px;
-    padding-left: 20px;
+    font-size: 1rem;
+    padding: 0.7857rem;
+    padding-right: 1.4285rem;
+    padding-left: 1.4285rem;
    
     border: 2px solid #ff0000;
-    border-radius: 20px;
+    border-radius: 1.4285rem;
 }
 
 .profile {
@@ -178,17 +170,17 @@ align-items: center;
 
 
 .card {
-    width: 280px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 20rem;
+    margin-top: 1.4285rem;
+    margin-bottom: 1.4285rem;
 }
 .card:last-child{
-    margin-bottom: 30px;
+    margin-bottom: 2.1428rem;
 }
 
 .card:first-child{
     margin-top: 0px;
-    padding-top: 30px;
+    padding-top: 2.1428rem;
 }
 
 
@@ -202,17 +194,17 @@ align-items: center;
 .card p {
     font-family: Roboto;
    
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 
 
 .card h5 {
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 1.7857rem;
+    margin-top: 1.7857rem;
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 
@@ -229,10 +221,10 @@ align-items: center;
 @media (min-width: 720px) {
    
    .wrap {
-       padding-top: 30px;
-       padding-left: 15px;
-       padding-right: 15px;
-       padding-bottom: 240px;
+       padding-top: 2.1428rem;
+       padding-left: 1.07rem;
+       padding-right: 1.07rem;
+       padding-bottom: 17.1428rem;
    }
    .command{
        margin-top: 71px;
