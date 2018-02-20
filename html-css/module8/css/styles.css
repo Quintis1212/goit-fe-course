@@ -227,15 +227,15 @@ align-items: center;
        padding-bottom: 17.1428rem;
    }
    .command{
-       margin-top: 71px;
-       padding-bottom: 37px;
+       margin-top: 5.0714rem;
+       padding-bottom: 2.6428rem;
    }
     nav {
         
           display: flex;
           flex-direction: row;
         justify-content: space-between;
-        margin-bottom: 160px;
+        margin-bottom: 11.42rem;
        
       }
 .title {
@@ -243,8 +243,8 @@ align-items: center;
     margin: auto;
 }
       .title p {
-          margin-top: 50px;
-          margin-bottom: 40px;
+          margin-top: 3.571rem;
+          margin-bottom: 2.857rem;
       }
 
   .logo {
@@ -265,19 +265,19 @@ align-items: center;
         }
 .card:nth-child(-n+2) {
     margin-top: 0px;
-    padding-top: 20px;
+    padding-top: 1.428rem;
 }
 .card:nth-child(n+2) {
     margin-bottom: 0px;
 }
     }
 .profile{
-    margin-bottom: 43px;
+    margin-bottom: 3.071rem;
 }
 
     @media (min-width:940px) {
        .wrap{
-           padding-top: 50px;
+           padding-top: 3.57rem;
        }
        
        
@@ -294,11 +294,11 @@ align-items: center;
                 flex-basis: 23%;
             }
     .command{
-        margin-bottom: 75px;
+        margin-bottom: 5.357rem;
     }
 
     .card:nth-child(-n+2) {
-        margin-top: 20px;
+        margin-top: 1.4285rem;
         padding-top: 0px;
     }
 
