@@ -170,7 +170,7 @@ align-items: center;
 .icon {
     display: block;
     position: absolute;
-    top: 45%;
+    top: 70%;
     left: 55%;
     width: 2.5rem;
     height: 2.5rem;
@@ -206,8 +206,14 @@ align-items: center;
     background-repeat: no-repeat;
     background-position: center;
 }
-.card {
+
+.icon-card {
     position: relative;
+}
+
+
+.card {
+    
     width: 17.5rem;
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
