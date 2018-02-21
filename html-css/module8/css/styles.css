@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    font-size: 14px;
+    /* font-size: 14px; */
     font-family: 'Pathway Gothic One', sans-serif;
 
 }
@@ -19,7 +19,7 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    padding-top: 0.714rem;
+    padding-top: 0.625rem;
   
     background-color: rgba(0, 0, 0, 0.3);
  
@@ -33,8 +33,8 @@ body {
 
 
 .wrapper {
-    max-width: 68.57rem;
-    min-width: 22.857rem;
+    max-width: 60rem;
+    min-width: 20rem;
     margin: auto;
    
     
@@ -65,24 +65,24 @@ a {
 }
 
 nav {
-    margin-bottom: 3.517rem ;
+    margin-bottom: 3.125rem;
 }
 
 .logo {
     text-transform: uppercase;
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 1.428rem;
-    margin-top: 11.428rem;
+    font-size: 1.25rem;
+    margin-top: 10rem;
 }
 .log {
-    margin-right: 0.7142rem;
+    margin-right: 0.625rem;
     
 }
 .sign a {
     display: inline-block;
-    padding: 0.3571rem;
-    border-radius: 1.428rem   ;
+    padding: 0.3125rem;
+    border-radius: 1.25rem   ;
     border:2px solid rgba(255, 255, 255,0);
     font-family: Montserrat;
     font-weight: 700;
@@ -103,17 +103,17 @@ nav {
     color: #ffffff;
 }
 .title p {
-    margin-bottom: 2.1428rem;
-    margin-top: 2.1428rem;
+    margin-bottom: 1.875rem;
+    margin-top: 1.875rem;
     font-family: Roboto;
-    font-size: 1.714rem;
+    font-size: 1.5rem;
 }
 
 
 .title h2 { 
 font-family: Montserrat;
 font-weight: 700;
-font-size: 3.5714rem;
+font-size: 3.125rem;
 
 }
 
@@ -125,26 +125,26 @@ font-size: 3.5714rem;
     font-family: Montserrat;
     font-weight: 700;
     font-size: 1rem;
-    padding: 0.7857rem;
-    padding-right: 1.4285rem;
-    padding-left: 1.4285rem;
+    padding: 0.6875rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
    
     background-color: #ff0000;
-    border-radius: 1.4285rem;
+    border-radius: 1.25rem;
 }
 .command {
      text-align: center;
-     max-width: 68.57rem;
-    min-width: 22.857rem;
+     max-width: 60rem;
+     min-width: 20rem;
      margin: auto;
-     margin-top: 15rem;
-     padding-bottom: 3.928rem;
+     margin-top: 13.125rem;
+     padding-bottom: 3.437rem;
 }
 
 .command h5 {
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 1.5714rem;
+    font-size: 1.375rem;
     color: #000000;
 }
 
@@ -153,13 +153,13 @@ font-size: 3.5714rem;
     color: #ff0000;
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 1rem;
-    padding: 0.7857rem;
-    padding-right: 1.4285rem;
-    padding-left: 1.4285rem;
+    font-size: 0.875rem;
+    padding: 0.687rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
    
     border: 2px solid #ff0000;
-    border-radius: 1.4285rem;
+    border-radius: 1.25rem;
 }
 
 .profile {
@@ -167,20 +167,35 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
-
+.icon {
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #ff4e50;
+    background-image: url(../images/icon1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .card {
-    width: 20rem;
-    margin-top: 1.4285rem;
-    margin-bottom: 1.4285rem;
+    position: relative;
+    width: 17.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 .card:last-child{
-    margin-bottom: 2.1428rem;
+    margin-bottom: 1.875rem;
 }
 
 .card:first-child{
     margin-top: 0px;
-    padding-top: 2.1428rem;
+    padding-top: 1.875rem;
 }
 
 
@@ -188,23 +203,26 @@ align-items: center;
 
 .card img {
   border-radius: 50%;
+  display: inline-block;
+  height: 7.625rem;
+  width: 7.625rem;
 
 }
 
 .card p {
     font-family: Roboto;
    
-    font-size: 1rem;
+    font-size: 0.875rem;
 }
 
 
 
 .card h5 {
-    margin-bottom: 1.7857rem;
-    margin-top: 1.7857rem;
+    margin-bottom: 1.562rem;
+    margin-top: 1.562rem;
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.875rem;
 }
 
 
@@ -221,21 +239,21 @@ align-items: center;
 @media (min-width: 720px) {
    
    .wrap {
-       padding-top: 2.1428rem;
-       padding-left: 1.07rem;
-       padding-right: 1.07rem;
-       padding-bottom: 17.1428rem;
+       padding-top: 1.875rem;
+       padding-left: 0.93rem;
+       padding-right:  0.93rem;
+       padding-bottom: 15rem;
    }
    .command{
-       margin-top: 5.0714rem;
-       padding-bottom: 2.6428rem;
+       margin-top: 4.43rem;
+       padding-bottom: 2.31rem;
    }
     nav {
         
           display: flex;
           flex-direction: row;
         justify-content: space-between;
-        margin-bottom: 11.42rem;
+        margin-bottom: 10rem;
        
       }
 .title {
@@ -243,8 +261,8 @@ align-items: center;
     margin: auto;
 }
       .title p {
-          margin-top: 3.571rem;
-          margin-bottom: 2.857rem;
+          margin-top: 3.125rem;
+          margin-bottom: 2.5rem;
       }
 
   .logo {
@@ -265,19 +283,19 @@ align-items: center;
         }
 .card:nth-child(-n+2) {
     margin-top: 0px;
-    padding-top: 1.428rem;
+    padding-top: 1.25rem;
 }
 .card:nth-child(n+2) {
     margin-bottom: 0px;
 }
     }
 .profile{
-    margin-bottom: 3.071rem;
+    margin-bottom: 2.68rem;
 }
 
     @media (min-width:940px) {
        .wrap{
-           padding-top: 3.57rem;
+           padding-top: 3.125rem;
        }
        
        
@@ -294,11 +312,11 @@ align-items: center;
                 flex-basis: 23%;
             }
     .command{
-        margin-bottom: 5.357rem;
+        margin-bottom: 4.68rem;
     }
 
     .card:nth-child(-n+2) {
-        margin-top: 1.4285rem;
+        margin-top: 1.25rem;
         padding-top: 0px;
     }
 
