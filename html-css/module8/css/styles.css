@@ -176,13 +176,36 @@ align-items: center;
     height: 2.5rem;
     border: 2px solid #ffffff;
     border-radius: 50%;
-    padding: 5px;
+    padding: 0.3125rem;
+   
+}
+.profile1{
     background-color: #ff4e50;
-    background-image: url(../images/icon1.jpg);
+    background-image: url(../images/icon12.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.profile2{
+    background-color: #1cd7ad;
+    background-image: url(../images/icon13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile3{
+    background-color: #ffa507;
+    background-image: url(../images/icon14.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile4{
+    background-color: #4e73db;
+    background-image: url(../images/icon15.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .card {
     position: relative;
     width: 17.5rem;
@@ -195,7 +218,7 @@ align-items: center;
 
 .card:first-child{
     margin-top: 0px;
-    padding-top: 1.875rem;
+   
 }
 
 
@@ -278,12 +301,24 @@ align-items: center;
         }
 
         .card {
-            flex-basis: 47%;
+            flex-basis: 40%;
 
         }
+
+
+
+
+
 .card:nth-child(-n+2) {
     margin-top: 0px;
-    padding-top: 1.25rem;
+   
+}
+.card:first-child {
+    margin-bottom: 0px;
+}
+
+.command h5 {
+    margin-bottom: 1.25rem;
 }
 .card:nth-child(n+2) {
     margin-bottom: 0px;
