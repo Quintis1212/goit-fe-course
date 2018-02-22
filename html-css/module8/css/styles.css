@@ -22,7 +22,7 @@ body {
     padding-top: 0.625rem;
   
     background-color: rgba(0, 0, 0, 0.3);
- 
+ padding-bottom: 8.56rem;
 }
 
 
@@ -44,14 +44,8 @@ a {
     display: inline-block;
 }
 
-
 nav {
-  
-    display: flex;
-    flex-direction: column-reverse;
-   align-items: center;
-   
- 
+    text-align: center;
 }
 
 
@@ -137,7 +131,7 @@ font-size: 3.125rem;
      max-width: 60rem;
      min-width: 20rem;
      margin: auto;
-     margin-top: 13.125rem;
+     margin-top: 5rem;
      padding-bottom: 3.437rem;
 }
 
@@ -146,6 +140,7 @@ font-size: 3.125rem;
     font-weight: 700;
     font-size: 1.375rem;
     color: #000000;
+    margin-bottom: 1.25rem;
 }
 
 .command a {
@@ -162,11 +157,7 @@ font-size: 3.125rem;
     border-radius: 1.25rem;
 }
 
-.profile {
-display: flex;
-flex-direction: column;
-align-items: center;
-}
+
 .icon {
     display: block;
     position: absolute;
@@ -216,11 +207,10 @@ align-items: center;
     
     width: 17.5rem;
     margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+   
+    margin: auto;
 }
-.card:last-child{
-    margin-bottom: 1.875rem;
-}
+
 
 .card:first-child{
     margin-top: 0px;
@@ -232,9 +222,10 @@ align-items: center;
 
 .card img {
   border-radius: 50%;
-  display: inline-block;
+  display: block;
   height: 7.625rem;
   width: 7.625rem;
+  margin: auto;
 
 }
 
@@ -255,7 +246,7 @@ align-items: center;
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     .log {
         margin-right: 0px;
         
@@ -265,7 +256,7 @@ align-items: center;
     
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
    
    .wrap {
        padding-top: 1.875rem;
@@ -296,6 +287,7 @@ align-items: center;
 
   .logo {
       margin-top: 0px;
+      order: 3;
   }
 
       .profile {
@@ -303,7 +295,7 @@ align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         }
 
         .card {
@@ -339,8 +331,7 @@ align-items: center;
            padding-top: 3.125rem;
        }
        
-       
-       
+      
         .profile {
             display: flex;
             flex-wrap: wrap;
@@ -356,10 +347,9 @@ align-items: center;
         margin-bottom: 4.68rem;
     }
 
-    .card:nth-child(-n+2) {
-        margin-top: 1.25rem;
-        padding-top: 0px;
-    }
+.command h5 {
+    margin-bottom: 2.5rem;
+}
 
 
     .card:first-child {
