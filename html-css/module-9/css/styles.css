@@ -214,9 +214,6 @@ font-size: 3.125rem;
 }
 
 
-.margin-top {
-margin-top: 2.5rem;
-}
 
 
 
@@ -251,6 +248,10 @@ margin-top: 2.5rem;
     .team-cards [class*="col-"]:not(:last-child) {
         margin-bottom: 30px;
       }
+      .margin-space {
+        margin-top: 2.5rem;
+        }
+
  .profile {
      margin-top: 1.25rem;
  }
@@ -260,6 +261,8 @@ margin-top: 2.5rem;
 }
 
 @media (min-width:768) {
-  
+    .space {
+        margin-top: 10rem;
+    }
 
 }
