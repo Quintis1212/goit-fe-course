@@ -217,7 +217,7 @@ font-size: 3.125rem;
     width: 17.5rem;
  
    
-    margin: auto;
+ 
 }
 
 
@@ -256,9 +256,9 @@ font-size: 3.125rem;
     .logo {
         margin-top: 7.5rem; 
     }
-    .team-cards [class*="col-"]:not(:last-child) {
+    /* .team-cards [class*="col-"]:not(:last-child) {
         margin-bottom: 30px;
-      }
+      } */
      
 
  
@@ -271,5 +271,11 @@ font-size: 3.125rem;
     .margin-space {
         margin-top: 10rem;
     }
-    
+  
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .card:nth-child(-n+2) {
+        margin-bottom: 1.875rem;
+    }
 }
