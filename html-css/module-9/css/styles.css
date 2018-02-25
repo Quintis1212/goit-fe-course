@@ -1,0 +1,265 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Pathway Gothic One', sans-serif;
+
+}
+
+.wrapper {
+    background-image: url(../images/backimg.jpg);
+    min-width: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding-top: 0.625rem;
+  
+    background-color: rgba(0, 0, 0, 0.3);
+ padding-bottom: 8.56rem;
+ margin-bottom: 7.5rem; 
+}
+
+.container {
+    max-width: 60rem;
+    min-width: 20rem;
+    margin: auto;
+   
+    
+}
+
+a {
+    display: inline-block;
+}
+sign ,
+logo {
+    margin: auto;
+}
+nav {
+    text-align: center;
+   
+}
+
+li {
+    list-style: none;
+}
+
+nav a  {
+    color:  #ffffff;
+}
+a {
+    text-decoration:none;
+    
+}
+
+.margin-bottom-top {
+    margin-top: 1.5625rem;
+    margin-bottom: 1.5625rem;
+}
+
+
+
+
+.logo {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1.25rem;
+   
+}
+.log {
+    margin-right: 0.625rem; 
+}
+.sign a {
+    display: inline-block;
+    padding: 0.3125rem;
+    border-radius: 1.25rem   ;
+    border:2px solid rgba(255, 255, 255,0);
+    font-family: Montserrat;
+    font-weight: 700;
+   
+
+
+
+}
+
+
+
+.sign a:hover {
+    border:2px solid rgb(255, 255, 255);
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+}
+.title p {
+  
+    font-family: Roboto;
+    font-size: 1.5rem;
+}
+
+
+.title h2 { 
+font-family: Montserrat;
+font-weight: 700;
+font-size: 3.125rem;
+
+}
+
+
+.title a {
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.6875rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+   
+    background-color: #ff0000;
+    border-radius: 1.25rem;
+}
+.command {
+     text-align: center;
+     max-width: 60rem;
+     min-width: 20rem;
+     margin: auto;
+  
+     padding-bottom: 3.437rem;
+}
+
+.command h5 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1.375rem;
+    color: #000000;
+   
+}
+
+.command a {
+    text-decoration: none;
+    color: #ff0000;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 0.875rem;
+    padding: 0.687rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+   
+    border: 2px solid #ff0000;
+    border-radius: 1.25rem;
+}
+
+
+.icon {
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding: 0.3125rem;
+   
+}
+.profile1{
+    background-color: #ff4e50;
+    background-image: url(../images/icon12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile2{
+    background-color: #1cd7ad;
+    background-image: url(../images/icon13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile3{
+    background-color: #ffa507;
+    background-image: url(../images/icon14.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile4{
+    background-color: #4e73db;
+    background-image: url(../images/icon15.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-card {
+    position: relative;
+}
+
+
+.card {
+    
+    width: 17.5rem;
+ 
+   
+    margin: auto;
+}
+
+
+.margin-top {
+margin-top: 2.5rem;
+}
+
+
+
+.card img {
+  border-radius: 50%;
+  display: block;
+  height: 7.625rem;
+  width: 7.625rem;
+  margin: auto;
+
+}
+
+.card p {
+    font-family: Roboto;
+   
+    font-size: 0.875rem;
+}
+
+
+
+.card h5 {
+   
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+@media (max-width:768px)  {
+    .logo {
+        margin-top: 7.5rem; 
+    }
+    .team-cards [class*="col-"]:not(:last-child) {
+        margin-bottom: 30px;
+      }
+ .profile {
+     margin-top: 1.25rem;
+ }
+.card:not(:last-child) {
+    margin-bottom: 1.875rem;
+}
+}
+
+@media (min-width:768) {
+  
+
+}
