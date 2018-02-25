@@ -63,8 +63,11 @@ a {
     margin-bottom: 1.5625rem;
 }
 
-.mar-tp {
-    margin-top: 1.875rem; 
+.mar-top {
+    margin-top: 1.875rem;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 
@@ -91,7 +94,9 @@ a {
 
 }
 
-
+.mar-bottom {
+    margin-bottom: 2.5rem;
+}
 
 .sign a:hover {
     border:2px solid rgb(255, 255, 255);
@@ -256,15 +261,13 @@ font-size: 3.125rem;
       }
      
 
- .profile {
-     margin-top: 1.25rem;
- }
+ 
 .card:not(:last-child) {
     margin-bottom: 1.875rem;
 }
 }
 
-@media (min-width:768) {
+@media (min-width:768px) {
     .margin-space {
         margin-top: 10rem;
     }
