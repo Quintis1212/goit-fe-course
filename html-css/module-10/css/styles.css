@@ -276,6 +276,8 @@ margin-top: 80px;
 border-top: 2px solid grey;
 padding-bottom: 30px;
 padding-top: 30px;
+margin-left : auto;
+margin-right : auto;
 }
 
 .footer-link {
@@ -305,6 +307,27 @@ button {
     font-size: 14px;
     
 }
+
+.mat {
+    background-image: url(../images/Met.jpg);
+}
+
+
+
+
+
+img:hover {
+  
+   
+    box-shadow: 10px 10px  #95e1d3;
+}
+
+
+
+
+
+
+
 
 
 /* MEDIA */
