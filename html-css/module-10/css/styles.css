@@ -278,13 +278,15 @@ li {
 }
 
 .img-hover {
+   
       background-color: 10px 10px  #95e1d3;
      
    }
 
 
- img:hover  {
-  transform: translateX(-5%) translateY(-5%);
+   .team-list__item:hover  {
+  transform: translateX(-2%) translateY(-2%);
+ 
 }
 
 
