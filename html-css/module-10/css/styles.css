@@ -13,15 +13,15 @@ body {
 }
 
 .wrapper {
-  background-image: linear-gradient(to top, #95e1d3, #eaffd0, #fce38a, #f38181), url(../images/backimg.jpg);
+  background-image:  linear-gradient( to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100% ), url(../images/backimg-min.jpg);
   
   min-width: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-blend-mode: overlay;
+
   padding-top: 0.625rem;
-  background-color: rgba(0, 0, 0, 0.3);
+
   padding-bottom: 8.56rem;
   margin-bottom: 7.5rem; 
 }
@@ -64,6 +64,19 @@ li:hover {
     
     border-bottom: 2px solid #fce38a;
 }
+
+.logo{
+    border: 2px solid ;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.logo:hover {
+    color: #fce38a;
+    
+    border-bottom: 2px solid #fce38a;
+}
+
+
 .article__link:hover{
     color: #fce38a;
     border: 2px solid #182fb6;
@@ -311,7 +324,7 @@ li {
 
 
 .team-list__item:hover::before {
-  opacity: 0.3;
+  opacity: 1;
   z-index: 10;
 }
 
@@ -404,6 +417,6 @@ button {
 
 @media (min-width: 1920px) {
   .wrapper {  
-    background-image: linear-gradient(to top, purple, crimson, orangered, gold), url(../images/backimg2x.jpg);
+    background-image: linear-gradient(to top, purple, crimson, orangered, gold), url(../images/backimg2x-min.jpg);
   }
 }
