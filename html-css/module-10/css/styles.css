@@ -182,8 +182,8 @@ body {
   margin-bottom: 100px;
 }
 
-.offer-services__container ,
-.meeting-with-team__container {
+.offer-services__services-title ,
+.meeting-with-team__services-title {
  flex-wrap: nowrap;
   text-align: center;
   padding-bottom: 30px;
