@@ -111,7 +111,7 @@ body {
   border-color: rgba(0, 0, 0, 0);
 }
 
-.article__container {
+.header-page__article {
   color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
